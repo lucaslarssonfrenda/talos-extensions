@@ -37,6 +37,6 @@ depends:
       - etcfiles
   - service: udevd
   - path: /dev/mapper/control
-  - service: cri
+  # - service: cri
   # - configuration: true
 restart: always
